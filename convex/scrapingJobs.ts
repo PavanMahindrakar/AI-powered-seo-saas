@@ -338,7 +338,16 @@ export const getUserJobs = query({
       if (job.seoReport !== undefined) {
         const result = seoReportSchema.safeParse(job.seoReport);
         if (!result.success) {
-          throw new Error("Stored seoReport failed validation");
+          // throw new Error("Stored seoReport failed validation");
+          console.error("SEO REPORT VALIDATION ERROR:", result.error.format());
+
+          throw new Error(
+            `Stored seoReport failed validation: ${JSON.stringify(
+              result.error.format(),
+              null,
+              2
+            )}`
+          );
         }
       }
     }
