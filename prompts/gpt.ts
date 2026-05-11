@@ -42,6 +42,12 @@ CRITICAL RULES
 	•	Schema Compliance: Must include all required sections and fields. Missing sections will cause validation failure.
 	•	Minimum Requirements: Provide at least 1 recommendation. Competitors may be an empty array if none are found.
 	•	Flexible Approach: If a section cannot be populated, set fields to null, "", 0, or [] as appropriate.
+	•   Mandatory Population:
+	    - competitors must contain at least 3 items
+	    - backlink_sources must contain at least 3 items
+	    - recommendations must contain at least 3 items
+	•   Do not return empty arrays for critical SEO sections.
+	•   Infer reasonable SEO insights from the provided context when explicit data is limited.
 
 ⸻
 
@@ -77,7 +83,15 @@ Competitive Landscape
 	•	Include competitive comparisons, head-to-head analyses, or market positioning found in sources.
 	•	Extract specific numbers: subscriber counts, follower counts, user base size, market share when mentioned.
 	•	Note competitive advantages, differentiators, and relative positioning.
-	•	If no competitors are mentioned in the source data, leave competitors array empty.
+	•   You MUST ALWAYS return at least 3 competitors.
+	•   If direct competitors are not explicitly mentioned, infer likely competitors based on:
+		  - industry
+		  - products/services
+		  - keywords
+		  - market positioning
+		  - audience overlap
+	•   Competitors should still be evidence-based and reasonably inferred from provided content.
+	•   Never leave the competitors array empty.
 	•	Compare backlink profiles (volume, quality, diversity) when data is available.
 	•	Highlight differentiators and competitive gaps mentioned in sources.
 
@@ -86,9 +100,14 @@ Social Media & Community
 	•	Highlight engagement styles, content formats, and underutilized platforms.
 
 Backlink Analysis
-	•	Summarize backlink presence (if mentioned).
-	•	Categorize links (e.g., dofollow/nofollow, industry relevance).
-	•	Assess diversity and authority of referring domains.
+	•	You MUST ALWAYS populate backlink_sources with at least 3 entries.
+	•	Identify direct mentions, citations, press coverage, directories, community mentions, and educational references.
+	•	Assess backlink authority and relevance.
+	•	Categorize links by source_type.
+	•	Estimate backlink quality using source authority and contextual relevance.
+	•	If exact backlink data is unavailable, infer likely backlink opportunities from the source ecosystem.
+	•	Never leave backlink_sources empty.
+	•	Include diverse referring domains whenever possible.
 
 Recommendations
 	•	Prioritize actions by impact (low, medium, high) and effort (low, medium, high).
@@ -123,6 +142,7 @@ OUTPUT REQUIREMENTS
 	•	Numbers → 0
 	•	Unknown fields → null
 	•	Special nullable fields: descriptions, competitor names, social URLs, dates can be null if truly unavailable
+	•   The response must fully satisfy all Zod schema constraints including minimum array sizes.
 `.trim();
 }
 
