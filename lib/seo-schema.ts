@@ -188,7 +188,7 @@ export const seoReportSchema = z.object({
         evidence: z.array(evidenceSchema),
       }),
     )
-    .min(3)
+    .min(0)
     .max(15),
 
   social_presence: z.object({
@@ -223,7 +223,7 @@ export const seoReportSchema = z.object({
         link_type: z.enum(["dofollow", "nofollow", "unknown"]).nullable(),
         evidence: z.array(evidenceSchema),
       }),
-    ).min(5),
+    ),
     
   }),
   
@@ -254,7 +254,7 @@ export const seoReportSchema = z.object({
 
   summary: z.object({
     overall_score: z.number().min(0).max(100).nullable(),
-    key_strengths: z.array(z.string()).min(3).nullable(),
+    key_strengths: z.array(z.string()).nullable(),
     critical_issues: z.array(z.string()).nullable(),
     quick_wins: z.array(z.string()).nullable(),
     long_term_opportunities: z.array(z.string()).nullable(),
