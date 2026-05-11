@@ -40,19 +40,18 @@ export default function Home() {
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
               <span className="bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 dark:from-white dark:via-blue-100 dark:to-white bg-clip-text text-transparent">
-                Generate Beautiful
+                Turn Your 
               </span>
               <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                SEO Reports
+                Search Data
               </span>
               <span className="bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 dark:from-white dark:via-blue-100 dark:to-white bg-clip-text text-transparent">
-                in Seconds
+                Into Growth Insights
               </span>
             </h1>
 
             <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground leading-relaxed">
-              Harness the power of Bright Data&apos;s SERP Perplexity Scraper to
-              create comprehensive SEO reports instantly.
+              Generate competitor analysis, backlink intelligence, keyword insights, and actionable SEO recommendations using AI-powered research workflows and real-time web data.
               <span className="text-foreground font-medium">
                 {" "}
                 Fast, simple, and incredibly insightful.
@@ -89,6 +88,70 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="py-20 sm:py-32">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
+            How BrightSEO AI Works
+          </h2>
+
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Transform search data into actionable SEO intelligence using AI-powered workflows.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 mt-16">
+          <Card>
+            <CardHeader>
+              <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-4">
+                <Search className="w-6 h-6 text-blue-600" />
+              </div>
+
+              <CardTitle>
+                Enter a Business or Website
+              </CardTitle>
+
+              <CardDescription>
+                Analyze brands, startups, SaaS products, or domains instantly.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-4">
+                <Sparkles className="w-6 h-6 text-purple-600" />
+              </div>
+
+              <CardTitle>
+                AI Collects Search Intelligence
+              </CardTitle>
+
+              <CardDescription>
+                AI agents gather SERP data, competitor insights, backlinks, and SEO signals.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <div className="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center mb-4">
+                <BarChart3 className="w-6 h-6 text-pink-600" />
+              </div>
+
+              <CardTitle>
+                Receive Actionable Reports
+              </CardTitle>
+
+              <CardDescription>
+                Get AI-powered SEO recommendations, keyword opportunities, and competitor analysis.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </div>
+      </div>
+    </section>
 
       {/* Feature Highlights */}
       <section className="py-20 sm:py-32">
@@ -161,7 +224,7 @@ export default function Home() {
                   </Badge>
                 </div>
                 <CardTitle className="text-2xl">
-                  Chat With Your Report
+                  AI SEO Assistant
                 </CardTitle>
                 <CardDescription className="text-base">
                   Everything in Starter, plus the power to have intelligent
@@ -204,7 +267,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-              Simple, Transparent Pricing
+              Scale Your SEO Workflow with AI
             </h2>
             <p className="text-lg text-muted-foreground">
               Choose the plan that fits your SEO needs. Upgrade or downgrade
@@ -219,7 +282,7 @@ export default function Home() {
                 <CardTitle className="text-xl mb-2">Starter</CardTitle>
                 <div className="flex items-baseline justify-center gap-1">
                   <span className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                    $9.99
+                    $9
                   </span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
@@ -262,7 +325,7 @@ export default function Home() {
                 <CardTitle className="text-xl mb-2">Pro</CardTitle>
                 <div className="flex items-baseline justify-center gap-1">
                   <span className="text-4xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600 bg-clip-text text-transparent">
-                    $19.99
+                    $19
                   </span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
@@ -306,10 +369,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl font-semibold mb-4">
-              Powered by Industry Leaders
+              Powered by Enterprise AI & Search Infrastructure
             </h2>
             <p className="text-muted-foreground">
-              Built with enterprise-grade technology and security you can trust
+              Scalable AI workflows powered by modern cloud and search intelligence platforms.
             </p>
           </div>
 
@@ -344,12 +407,135 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800">
               <Shield className="w-4 h-4 text-green-600" />
               <span className="text-sm text-green-700 dark:text-green-300 font-medium">
-                Enterprise-grade security & 99.9% uptime guaranteed
+                Real-time AI-powered SEO analysis workflows
               </span>
             </div>
           </div>
         </div>
       </section>
+
+      <footer className="border-t bg-background/80 backdrop-blur">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid gap-12 md:grid-cols-5">
+
+          {/* Brand */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold">
+              BrightSEO AI
+            </h3>
+
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              AI-powered SEO intelligence platform for modern businesses and growth teams.
+            </p>
+          </div>
+
+          {/* Product */}
+          <div>
+            <h4 className="font-semibold mb-4">
+              Product
+            </h4>
+
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li>
+                <Link href="/dashboard">
+                  Dashboard
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/pricing">
+                  Pricing
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/features">
+                  Features
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h4 className="font-semibold mb-4">
+              Resources
+            </h4>
+
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li>Documentation</li>
+              <li>API Access</li>
+              <li>Support</li>
+            </ul>
+          </div>
+
+          {/* Infrastructure */}
+          <div>
+            <h4 className="font-semibold mb-4">
+              Infrastructure
+            </h4>
+
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li>OpenAI</li>
+              <li>Bright Data</li>
+              <li>Convex</li>
+              {/* <li>Next.js</li> */}
+            </ul>
+          </div>
+
+          {/* Connect */}
+          <div>
+            <h4 className="font-semibold mb-4">
+              Connect
+            </h4>
+
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/pavanmahindrakar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
+                  LinkedIn
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://github.com/PavanMahindrakar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://pavanportfolio-delta.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Portfolio
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 border-t pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-muted-foreground">
+            © 2026 BrightSEO AI. All rights reserved.
+          </p>
+
+          <p className="text-sm text-muted-foreground">
+            Built for AI-powered SEO intelligence workflows.
+          </p>
+        </div>
+      </div>
+    </footer>
     </div>
   );
 }
