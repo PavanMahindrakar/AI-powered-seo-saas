@@ -17,14 +17,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SEO Reports Generator - Powered by Bright Data & AI",
-  description: "Generate beautiful, comprehensive SEO reports in seconds using Bright Data's SERP Perplexity Scraper. Chat with your reports using AI. Start free today!",
-  keywords: "SEO reports, SERP analysis, Bright Data, AI chat, keyword research, competitor analysis",
-  authors: [{ name: "SEO SaaS" }],
+  title: "BrightSEO AI — AI-Powered SEO Intelligence Platform",
+
+  description:
+    "Generate AI-powered SEO intelligence reports with competitor analysis, backlink insights, SERP research, and growth recommendations using OpenAI and Bright Data.",
+
+  keywords: [
+    "AI SEO platform",
+    "SEO intelligence",
+    "competitor analysis",
+    "backlink analysis",
+    "SERP research",
+    "OpenAI SEO",
+    "Bright Data",
+    "AI SEO reports",
+    "SEO SaaS",
+    "keyword intelligence",
+  ],
+
+  authors: [
+    {
+      name: "Pavan Mahindrakar",
+    },
+  ],
+
+  creator: "Pavan Mahindrakar",
+
   openGraph: {
-    title: "SEO Reports Generator - Powered by Bright Data & AI",
-    description: "Generate beautiful, comprehensive SEO reports in seconds using Bright Data's SERP Perplexity Scraper. Chat with your reports using AI.",
+    title:
+      "BrightSEO AI — AI-Powered SEO Intelligence Platform",
+
+    description:
+      "Generate AI-powered SEO intelligence reports with competitor analysis, backlink insights, SERP research, and growth recommendations.",
+
     type: "website",
+
+    siteName: "BrightSEO AI",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "BrightSEO AI — AI-Powered SEO Intelligence Platform",
+
+    description:
+      "AI-powered SEO intelligence reports with competitor analysis, backlink insights, and SERP research.",
   },
 };
 

@@ -416,17 +416,28 @@ export default function Home() {
 
       <footer className="border-t bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-5">
+
+        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
 
           {/* Brand */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">
-              BrightSEO AI
-            </h3>
+          <div className="space-y-5">
 
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              AI-powered SEO intelligence platform for modern businesses and growth teams.
-            </p>
+            <div className="inline-flex items-center gap-2 rounded-full border bg-muted/40 px-3 py-1 text-xs text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-green-500" />
+              AI SEO Intelligence Platform
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold tracking-tight">
+                BrightSEO AI
+              </h3>
+
+              <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-sm">
+                Generate AI-powered SEO intelligence reports, competitor insights,
+                backlink analysis, and growth recommendations in minutes.
+              </p>
+            </div>
+
           </div>
 
           {/* Product */}
@@ -436,36 +447,34 @@ export default function Home() {
             </h4>
 
             <ul className="space-y-3 text-sm text-muted-foreground">
+
               <li>
-                <Link href="/dashboard">
+                <Link
+                  href="/dashboard"
+                  className="hover:text-foreground transition-colors"
+                >
                   Dashboard
                 </Link>
               </li>
 
               <li>
-                <Link href="/pricing">
+                <Link
+                  href="/pricing"
+                  className="hover:text-foreground transition-colors"
+                >
                   Pricing
                 </Link>
               </li>
 
               <li>
-                <Link href="/features">
+                <Link
+                  href="/features"
+                  className="hover:text-foreground transition-colors"
+                >
                   Features
                 </Link>
               </li>
-            </ul>
-          </div>
 
-          {/* Resources */}
-          <div>
-            <h4 className="font-semibold mb-4">
-              Resources
-            </h4>
-
-            <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>Documentation</li>
-              <li>API Access</li>
-              <li>Support</li>
             </ul>
           </div>
 
@@ -476,10 +485,19 @@ export default function Home() {
             </h4>
 
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>OpenAI</li>
-              <li>Bright Data</li>
-              <li>Convex</li>
-              {/* <li>Next.js</li> */}
+
+              <li className="hover:text-foreground transition-colors">
+                OpenAI
+              </li>
+
+              <li className="hover:text-foreground transition-colors">
+                Bright Data
+              </li>
+
+              <li className="hover:text-foreground transition-colors">
+                Convex
+              </li>
+
             </ul>
           </div>
 
@@ -490,6 +508,7 @@ export default function Home() {
             </h4>
 
             <ul className="space-y-3 text-sm text-muted-foreground">
+
               <li>
                 <a
                   href="https://www.linkedin.com/in/pavanmahindrakar"
@@ -511,6 +530,7 @@ export default function Home() {
                   GitHub
                 </a>
               </li>
+
               <li>
                 <a
                   href="https://pavanportfolio-delta.vercel.app"
@@ -521,19 +541,47 @@ export default function Home() {
                   Portfolio
                 </a>
               </li>
+
             </ul>
           </div>
+
         </div>
 
-        <div className="mt-12 border-t pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">
-            © 2026 BrightSEO AI. All rights reserved.
+        {/* Bottom Footer */}
+        <div className="mt-12 border-t border-border/50 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+
+          <p className="text-sm text-muted-foreground text-center md:text-left">
+            © 2026 BrightSEO AI. Designed and developed by{" "}
+            
+            <span className="font-semibold text-foreground">
+              Pavan Mahindrakar
+            </span>.
           </p>
 
-          <p className="text-sm text-muted-foreground">
-            Built for AI-powered SEO intelligence workflows.
-          </p>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground flex-wrap justify-center">
+
+            <span>Powered by</span>
+
+            <span className="text-foreground font-medium">
+              OpenAI
+            </span>
+
+            <span>•</span>
+
+            <span className="text-foreground font-medium">
+              Bright Data
+            </span>
+
+            <span>•</span>
+
+            <span className="text-foreground font-medium">
+              Convex
+            </span>
+
+          </div>
+
         </div>
+
       </div>
     </footer>
     </div>

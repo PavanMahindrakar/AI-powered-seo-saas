@@ -11,6 +11,7 @@ import {
 import { ChevronDown } from "lucide-react";
 
 const countries = [
+  { code: "Ind", name: "India", flag: "🇮🇳" },
   { code: "US", name: "United States", flag: "🇺🇸" },
   { code: "GB", name: "United Kingdom", flag: "🇬🇧" },
   { code: "CA", name: "Canada", flag: "🇨🇦" },
@@ -36,7 +37,6 @@ const countries = [
   { code: "JP", name: "Japan", flag: "🇯🇵" },
   { code: "KR", name: "South Korea", flag: "🇰🇷" },
   { code: "CN", name: "China", flag: "🇨🇳" },
-  { code: "IN", name: "India", flag: "🇮🇳" },
   { code: "SG", name: "Singapore", flag: "🇸🇬" },
   { code: "HK", name: "Hong Kong", flag: "🇭🇰" },
   { code: "MY", name: "Malaysia", flag: "🇲🇾" },

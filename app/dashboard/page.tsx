@@ -19,7 +19,7 @@ import { Authenticated, AuthLoading } from "convex/react";
 
 function Dashboard() {
   const [prompt, setPrompt] = useState("");
-  const [country, setCountry] = useState("US");
+  const [country, setCountry] = useState("Ind");
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
