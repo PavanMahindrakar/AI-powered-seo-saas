@@ -17,9 +17,6 @@ This project demonstrates how Agentic AI + LLM workflows can be integrated into 
 🔗 Live Product
 https://ai-powered-seo-saas.vercel.app/
 
-💻 GitHub Repository
-https://github.com/PavanMahindrakar/AI-powered-seo-saas
-
 ---
 
 # 📖 Overview
@@ -275,15 +272,6 @@ by automating SEO intelligence and reducing manual research effort.
 # 👨‍💻 Author
 
 ## Pavan Mahindrakar
-
-🔗 LinkedIn
-https://linkedin.com/in/pavanmahindrakar
-
-💻 GitHub
-https://github.com/PavanMahindrakar
-
-🌐 Portfolio
-https://pavanportfolio-delta.vercel.app
 
 ---
 
