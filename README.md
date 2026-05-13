@@ -13,7 +13,7 @@ This project demonstrates how Agentic AI + LLM workflows can be integrated into 
 ---
 # 🎥 Product Demo
 
-![BrightSEO AI Banner](./public/thumbnail.png)
+[![BrightSEO AI Banner](public/thumbnail.png)](https://youtu.be/biXzyPQRDWY)
 
 ---
 
@@ -21,12 +21,6 @@ This project demonstrates how Agentic AI + LLM workflows can be integrated into 
 
 🔗 Live Product
 https://ai-powered-seo-saas.vercel.app/
-
----
-
-## ▶️ Demo Video
-
-[Watch Full Demo Video](https://youtu.be/biXzyPQRDWY)
 
 ---
 
