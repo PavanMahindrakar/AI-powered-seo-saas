@@ -275,17 +275,6 @@ by automating SEO intelligence and reducing manual research effort.
 
 ---
 
-# ⭐ Support
-
-If you found this project useful:
-
-* Star the repository
-* Share feedback
-* Connect on LinkedIn
-* Contribute improvements
+If you found this project helpful, please consider giving it a star!
 
 ---
-
-# 📄 License
-
-MIT License
