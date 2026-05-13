@@ -11,11 +11,22 @@ This project demonstrates how Agentic AI + LLM workflows can be integrated into 
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+# 🎥 Product Demo
+
+![BrightSEO AI Banner](./public/thumbnail.jpeg)
+
+---
 
 # 🌐 Live Demo
 
 🔗 Live Product
 https://ai-powered-seo-saas.vercel.app/
+
+---
+
+## ▶️ Demo Video
+
+[Watch Full Demo Video](https://youtu.be/biXzyPQRDWY)
 
 ---
 
