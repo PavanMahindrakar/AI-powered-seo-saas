@@ -13,7 +13,7 @@ This project demonstrates how Agentic AI + LLM workflows can be integrated into 
 ---
 # 🎥 Product Demo
 
-[![BrightSEO AI Banner](public/thumbnail.png)](https://youtu.be/biXzyPQRDWY)
+[![BrightSEO AI Banner](public/thumbnail.jpeg)](https://youtu.be/biXzyPQRDWY)
 
 ---
 
